@@ -10,8 +10,8 @@ that list as a text file (or copies it to the clipboard) to send back to you.
 Usage:
     pip install requests --break-system-packages   # if requests isn't installed
     python3 jellyfin_catalog.py \
-        --url http://192.168.68.136:8096 \
-        --api-key YOUR_API_KEY \
+        --url http://[IP_ADDRESS] \
+        --api-key [API_KEY] \
         --output my_movies.html
 
 Get an API key in Jellyfin: Dashboard -> API Keys -> +
